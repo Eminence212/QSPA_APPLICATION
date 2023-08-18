@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QSPA APPLICATION</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../styles/accueil.css" />
+    <link rel="stylesheet" href="../styles/contact.css" />
+    <script src="../js/daateCopyrigth.js"></script>
+    <script src="../js/topNav.js"></script>
+  </head>
+  <body onload="todayDate()">
+    <div class="topnav" id="myTopnav">
+      <a href="./accueil.html" class="active"
+        ><i class="bx bx-tachometer"></i
+      ></a>
+      <div class="dropdown">
+        <button class="dropbtn">A la une</button>
+        <div class="dropdown-content">
+          <a
+            target="_blank"
+            href="https://www.google.com/search?sca_esv=556788212&rlz=1C1YTUH_frCD1052CD1052&q=francophonie+en+rdc&tbm=vid&source=lnms&sa=X&ved=2ahUKEwia8-njvNyAAxXxS0EAHZXRBjcQ0pQJegQICRAB&biw=1366&bih=619&dpr=1#fpstate=ive&vld=cid:fa72369a,vid:tfaVt13yYUc"
+            >Francophonie</a
+          >
+          <a
+            target="_blank"
+            href="https://web.facebook.com/TopCongoFM/videos/sp%C3%A9cial-anniversaire-top-congo-fm/559722819018730/?_rdc=1&_rdr"
+            >Top Congo</a
+          >
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">Districts</button>
+        <div class="dropdown-content">
+          <a href="#">Tshangu</a>
+          <a href="#">Lukunga</a>
+          <a href="#">Mot-Amba</a>
+          <a href="#">Funa</a>
+          <a href="#">Lukunga</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Partenaires</button>
+        <div class="dropdown-content">
+          <a href="https://www.mediacongo.net" target="_blank">Media Congo</a>
+          <a href="https://www.radiookapi.net" target="_blank">Radio Okapi</a>
+          <a href="https://www.isckinshasa.cd/construction" target="_blank"
+            >ISC Kinshasa</a
+          >
+          <a href="https://www.google.cd/" target="_blank">Autres choix</a>
+        </div>
+      </div>
+      <a href="./contact.html">Contact</a>
+
+      <a
+        href="javascript:void(0);"
+        style="font-size: 15px"
+        class="icon"
+        onclick="myTopnav()"
+        ><i class="bx bx-menu"></i
+      ></a>
+    </div>
+    <div class="contactUs">
+      <div class="title">
+        <h2>Nous contactez</h2>
+      </div>
+      <div class="box">
+        <!-- Formulaire -->
+        <div class="contact form">
+          <h3>Envoyer un Message</h3>
+          <form>
+            <div class="formBox">
+              <div class="row50">
+                <div class="inputBox">
+                  <span>Prénom</span>
+                  <input type="text" placeholder="Meschak" />
+                </div>
+                <div class="inputBox">
+                  <span>Nom</span>
+                  <input type="text" placeholder="KUFAKWINGI KASONGO" />
+                </div>
+              </div>
+              <div class="row50">
+                <div class="inputBox">
+                  <span>Email</span>
+                  <input
+                    type="text"
+                    placeholder="meschkufa@iscinnovation.net"
+                  />
+                </div>
+                <div class="inputBox">
+                  <span>Mobile</span>
+                  <input type="text" placeholder="+243842342330" />
+                </div>
+              </div>
+              <div class="row100">
+                <div class="inputBox">
+                  <span>Message</span>
+                  <textarea
+                    placeholder="Ecrire votre message ici ..."
+                  ></textarea>
+                </div>
+              </div>
+              <div class="row100">
+                <div class="inputBox">
+                  <input type="submit" value="Envoyer" />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <!-- Boite d'informations -->
+        <div class="contact info">
+          <h3>Informations de contact</h3>
+          <div class="infoBox">
+            <div>
+              <span><ion-icon name="location"></ion-icon></span>
+              <p>2, Kiteni 1. Q.2 C/N'djili</p>
+            </div>
+            <div>
+              <span><ion-icon name="mail"></ion-icon></span>
+              <a href="mailto:meschkufa@iscinnovation.net"
+                >meschkufa@iscinnovation.net</a
+              >
+            </div>
+            <div>
+              <span><ion-icon name="call"></ion-icon></span>
+              <a href="tel:+243842342330">+ 243 842 342 330</a>
+            </div>
+            <!-- Liens médias sociaux -->
+            <ul class="mediaSociaux">
+              <li>
+                <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+              </li>
+              <li>
+                <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+              </li>
+              <li>
+                <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+              </li>
+              <li>
+                <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Map -->
+        <div class="contact map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.0843486202575!2d15.373876875681834!3d-4.395315795578788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6a3772a543e22d%3A0x86d8b25c08d74e8b!2sNDjili%20cartier%202!5e0!3m2!1sfr!2scd!4v1692380901001!5m2!1sfr!2scd"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p><em id="date"></em></p>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

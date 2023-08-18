@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QSPA APPLICATION</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../styles/accueil.css" />
+    <script src="../js/daateCopyrigth.js"></script>
+    <script src="../js/topNav.js"></script>
+  </head>
+  <body onload="todayDate()">
+    <div class="topnav" id="myTopnav">
+      <a href="./accueil.html" class="active"
+        ><i class="bx bx-tachometer"></i
+      ></a>
+      <div class="dropdown">
+        <button class="dropbtn">A la une</button>
+        <div class="dropdown-content">
+          <a
+            target="_blank"
+            href="https://www.google.com/search?sca_esv=556788212&rlz=1C1YTUH_frCD1052CD1052&q=francophonie+en+rdc&tbm=vid&source=lnms&sa=X&ved=2ahUKEwia8-njvNyAAxXxS0EAHZXRBjcQ0pQJegQICRAB&biw=1366&bih=619&dpr=1#fpstate=ive&vld=cid:fa72369a,vid:tfaVt13yYUc"
+            >Francophonie</a
+          >
+          <a
+            target="_blank"
+            href="https://web.facebook.com/TopCongoFM/videos/sp%C3%A9cial-anniversaire-top-congo-fm/559722819018730/?_rdc=1&_rdr"
+            >Top Congo</a
+          >
+        </div>
+      </div>
+
+      <div class="dropdown">
+        <button class="dropbtn">Districts</button>
+        <div class="dropdown-content">
+          <a href="#">Tshangu</a>
+          <a href="#">Lukunga</a>
+          <a href="#">Mot-Amba</a>
+          <a href="#">Funa</a>
+          <a href="#">Lukunga</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Partenaires</button>
+        <div class="dropdown-content">
+          <a href="https://www.mediacongo.net" target="_blank">Media Congo</a>
+          <a href="https://www.radiookapi.net" target="_blank">Radio Okapi</a>
+          <a href="https://www.isckinshasa.cd/construction" target="_blank"
+            >ISC Kinshasa</a
+          >
+          <a href="https://www.google.cd/" target="_blank">Autres choix</a>
+        </div>
+      </div>
+      <a href="./contact.html">Contact</a>
+
+      <a
+        href="javascript:void(0);"
+        style="font-size: 15px"
+        class="icon"
+        onclick="myTopnav()"
+        ><i class="bx bx-menu"></i
+      ></a>
+    </div>
+
+    <footer>
+      <p><em id="date"></em></p>
+    </footer>
+  </body>
+</html>
